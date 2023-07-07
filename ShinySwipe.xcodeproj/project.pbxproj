@@ -8,25 +8,70 @@
 
 /* Begin PBXBuildFile section */
 		00C3E5A52A49B7F000D01A61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5A42A49B7F000D01A61 /* AppDelegate.swift */; };
-		00C3E5A72A49B7F000D01A61 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5A62A49B7F000D01A61 /* GameViewController.swift */; };
-		00C3E5AA2A49B7F000D01A61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C3E5A82A49B7F000D01A61 /* Main.storyboard */; };
 		00C3E5AD2A49B7F000D01A61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C3E5AB2A49B7F000D01A61 /* LaunchScreen.storyboard */; };
-		00C3E5AE2A49B7F000D01A61 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 00C3E5992A49B7EF00D01A61 /* Actions.sks */; };
-		00C3E5AF2A49B7F000D01A61 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 00C3E59A2A49B7EF00D01A61 /* GameScene.sks */; };
 		00C3E5B02A49B7F000D01A61 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E59B2A49B7EF00D01A61 /* GameScene.swift */; };
 		00C3E5B12A49B7F000D01A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C3E59C2A49B7F000D01A61 /* Assets.xcassets */; };
+		00C3E5BD2A49B94500D01A61 /* UserVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5BC2A49B94500D01A61 /* UserVM.swift */; };
+		00C3E5BF2A49B94C00D01A61 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5BE2A49B94C00D01A61 /* Loading.swift */; };
+		00C3E5C12A49B95500D01A61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5C02A49B95500D01A61 /* ContentView.swift */; };
+		00C3E5C32A49B98600D01A61 /* OptionsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5C22A49B98600D01A61 /* OptionsScreen.swift */; };
+		00C3E5C52A49B98D00D01A61 /* LeaderBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5C42A49B98D00D01A61 /* LeaderBoard.swift */; };
+		00C3E5C72A49B99300D01A61 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5C62A49B99300D01A61 /* TileView.swift */; };
+		00C3E5C92A49B99B00D01A61 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5C82A49B99B00D01A61 /* PopUpView.swift */; };
+		00C3E5CB2A49B9A100D01A61 /* UserRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5CA2A49B9A100D01A61 /* UserRegisterView.swift */; };
+		00C3E5CD2A49B9B400D01A61 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5CC2A49B9B400D01A61 /* GameEngine.swift */; };
+		00C3E5CF2A49B9BC00D01A61 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5CE2A49B9BC00D01A61 /* IAPManager.swift */; };
+		00C3E5D12A49B9C200D01A61 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5D02A49B9C200D01A61 /* Board.swift */; };
+		00C3E5D32A49B9CF00D01A61 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5D22A49B9CF00D01A61 /* Record.swift */; };
+		00C3E5D52A49B9D800D01A61 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5D42A49B9D800D01A61 /* Tile.swift */; };
+		00C3E5D72A49B9DD00D01A61 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5D62A49B9DD00D01A61 /* User.swift */; };
+		00C3E5D92A49B9E900D01A61 /* View+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5D82A49B9E900D01A61 /* View+Borders.swift */; };
+		00C3E5DB2A49B9F200D01A61 /* Array+IndexesOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5DA2A49B9F200D01A61 /* Array+IndexesOf.swift */; };
+		00C3E5DD2A49B9FB00D01A61 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5DC2A49B9FB00D01A61 /* UIColorExtension.swift */; };
+		00C3E5DF2A49BA0300D01A61 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5DE2A49BA0300D01A61 /* ColorExtension.swift */; };
+		00C3E5E12A49BA0D00D01A61 /* LinearGradientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5E02A49BA0D00D01A61 /* LinearGradientExtension.swift */; };
+		00C3E5E32A49BA1600D01A61 /* View+InverseMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5E22A49BA1600D01A61 /* View+InverseMask.swift */; };
+		00C3E5E52A4AE88800D01A61 /* WebConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5E42A4AE88800D01A61 /* WebConnector.swift */; };
+		00C3E5E72A4AE8B600D01A61 /* StartGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3E5E62A4AE8B600D01A61 /* StartGame.swift */; };
+		00C723AE2A530AE700D816F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00C723AD2A530AE700D816F4 /* GoogleService-Info.plist */; };
+		748A8D247B9780F74F2B40E2 /* Pods_ShinySwipe_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDAE09934CE70B51A61B3994 /* Pods_ShinySwipe_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00C3E5992A49B7EF00D01A61 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		00C3E59A2A49B7EF00D01A61 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		00C3E59B2A49B7EF00D01A61 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		00C3E59C2A49B7F000D01A61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00C3E5A12A49B7F000D01A61 /* ShinySwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShinySwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C3E5A42A49B7F000D01A61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00C3E5A62A49B7F000D01A61 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		00C3E5A92A49B7F000D01A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00C3E5AC2A49B7F000D01A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00C3E5BC2A49B94500D01A61 /* UserVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVM.swift; sourceTree = "<group>"; };
+		00C3E5BE2A49B94C00D01A61 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		00C3E5C02A49B95500D01A61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00C3E5C22A49B98600D01A61 /* OptionsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsScreen.swift; sourceTree = "<group>"; };
+		00C3E5C42A49B98D00D01A61 /* LeaderBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoard.swift; sourceTree = "<group>"; };
+		00C3E5C62A49B99300D01A61 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		00C3E5C82A49B99B00D01A61 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		00C3E5CA2A49B9A100D01A61 /* UserRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterView.swift; sourceTree = "<group>"; };
+		00C3E5CC2A49B9B400D01A61 /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
+		00C3E5CE2A49B9BC00D01A61 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		00C3E5D02A49B9C200D01A61 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		00C3E5D22A49B9CF00D01A61 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		00C3E5D42A49B9D800D01A61 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		00C3E5D62A49B9DD00D01A61 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		00C3E5D82A49B9E900D01A61 /* View+Borders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Borders.swift"; sourceTree = "<group>"; };
+		00C3E5DA2A49B9F200D01A61 /* Array+IndexesOf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+IndexesOf.swift"; sourceTree = "<group>"; };
+		00C3E5DC2A49B9FB00D01A61 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		00C3E5DE2A49BA0300D01A61 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		00C3E5E02A49BA0D00D01A61 /* LinearGradientExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientExtension.swift; sourceTree = "<group>"; };
+		00C3E5E22A49BA1600D01A61 /* View+InverseMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+InverseMask.swift"; sourceTree = "<group>"; };
+		00C3E5E42A4AE88800D01A61 /* WebConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebConnector.swift; sourceTree = "<group>"; };
+		00C3E5E62A4AE8B600D01A61 /* StartGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGame.swift; sourceTree = "<group>"; };
+		00C3E60D2A4B579300D01A61 /* ShinySwipe-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ShinySwipe-iOS-Info.plist"; sourceTree = "<group>"; };
+		00C723AD2A530AE700D816F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		00C723AF2A530BB200D816F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C723B12A530D1400D816F4 /* ShinySwipe iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ShinySwipe iOS.entitlements"; sourceTree = "<group>"; };
+		6252B9A41424DE98CAAC79AC /* Pods-ShinySwipe iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinySwipe iOS.release.xcconfig"; path = "Target Support Files/Pods-ShinySwipe iOS/Pods-ShinySwipe iOS.release.xcconfig"; sourceTree = "<group>"; };
+		BBF270B29695C5CF1076A103 /* Pods-ShinySwipe iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShinySwipe iOS.debug.xcconfig"; path = "Target Support Files/Pods-ShinySwipe iOS/Pods-ShinySwipe iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BDAE09934CE70B51A61B3994 /* Pods_ShinySwipe_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShinySwipe_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748A8D247B9780F74F2B40E2 /* Pods_ShinySwipe_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,21 +89,33 @@
 		00C3E5932A49B7EF00D01A61 = {
 			isa = PBXGroup;
 			children = (
-				00C3E5982A49B7EF00D01A61 /* ShinySwipe Shared */,
-				00C3E5A32A49B7F000D01A61 /* ShinySwipe iOS */,
+				00C723B12A530D1400D816F4 /* ShinySwipe iOS.entitlements */,
+				00C723AF2A530BB200D816F4 /* Info.plist */,
+				00C3E60D2A4B579300D01A61 /* ShinySwipe-iOS-Info.plist */,
+				00C3E5982A49B7EF00D01A61 /* ShinySwipe */,
 				00C3E5A22A49B7F000D01A61 /* Products */,
+				6302DE7DE12FFEA50316A19B /* Pods */,
+				69CED24E2B1795000E8D885F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		00C3E5982A49B7EF00D01A61 /* ShinySwipe Shared */ = {
+		00C3E5982A49B7EF00D01A61 /* ShinySwipe */ = {
 			isa = PBXGroup;
 			children = (
-				00C3E5992A49B7EF00D01A61 /* Actions.sks */,
-				00C3E59A2A49B7EF00D01A61 /* GameScene.sks */,
+				00C3E5BB2A49B93A00D01A61 /* ViewModel */,
+				00C3E5BA2A49B93500D01A61 /* View */,
+				00C3E5B92A49B92D00D01A61 /* GameEngine */,
+				00C3E5B82A49B92700D01A61 /* Model */,
+				00C3E5B72A49B91B00D01A61 /* Extension */,
 				00C3E59B2A49B7EF00D01A61 /* GameScene.swift */,
 				00C3E59C2A49B7F000D01A61 /* Assets.xcassets */,
+				00C3E5A42A49B7F000D01A61 /* AppDelegate.swift */,
+				00C3E5AB2A49B7F000D01A61 /* LaunchScreen.storyboard */,
+				00C3E5E42A4AE88800D01A61 /* WebConnector.swift */,
+				00C3E5E62A4AE8B600D01A61 /* StartGame.swift */,
+				00C723AD2A530AE700D816F4 /* GoogleService-Info.plist */,
 			);
-			path = "ShinySwipe Shared";
+			path = ShinySwipe;
 			sourceTree = "<group>";
 		};
 		00C3E5A22A49B7F000D01A61 /* Products */ = {
@@ -68,15 +126,76 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00C3E5A32A49B7F000D01A61 /* ShinySwipe iOS */ = {
+		00C3E5B72A49B91B00D01A61 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				00C3E5A42A49B7F000D01A61 /* AppDelegate.swift */,
-				00C3E5A62A49B7F000D01A61 /* GameViewController.swift */,
-				00C3E5A82A49B7F000D01A61 /* Main.storyboard */,
-				00C3E5AB2A49B7F000D01A61 /* LaunchScreen.storyboard */,
+				00C3E5D82A49B9E900D01A61 /* View+Borders.swift */,
+				00C3E5DA2A49B9F200D01A61 /* Array+IndexesOf.swift */,
+				00C3E5DC2A49B9FB00D01A61 /* UIColorExtension.swift */,
+				00C3E5DE2A49BA0300D01A61 /* ColorExtension.swift */,
+				00C3E5E02A49BA0D00D01A61 /* LinearGradientExtension.swift */,
+				00C3E5E22A49BA1600D01A61 /* View+InverseMask.swift */,
 			);
-			path = "ShinySwipe iOS";
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		00C3E5B82A49B92700D01A61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E5D02A49B9C200D01A61 /* Board.swift */,
+				00C3E5D22A49B9CF00D01A61 /* Record.swift */,
+				00C3E5D42A49B9D800D01A61 /* Tile.swift */,
+				00C3E5D62A49B9DD00D01A61 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00C3E5B92A49B92D00D01A61 /* GameEngine */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E5CC2A49B9B400D01A61 /* GameEngine.swift */,
+				00C3E5CE2A49B9BC00D01A61 /* IAPManager.swift */,
+			);
+			path = GameEngine;
+			sourceTree = "<group>";
+		};
+		00C3E5BA2A49B93500D01A61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E5BE2A49B94C00D01A61 /* Loading.swift */,
+				00C3E5C02A49B95500D01A61 /* ContentView.swift */,
+				00C3E5C22A49B98600D01A61 /* OptionsScreen.swift */,
+				00C3E5C42A49B98D00D01A61 /* LeaderBoard.swift */,
+				00C3E5C62A49B99300D01A61 /* TileView.swift */,
+				00C3E5C82A49B99B00D01A61 /* PopUpView.swift */,
+				00C3E5CA2A49B9A100D01A61 /* UserRegisterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00C3E5BB2A49B93A00D01A61 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				00C3E5BC2A49B94500D01A61 /* UserVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6302DE7DE12FFEA50316A19B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBF270B29695C5CF1076A103 /* Pods-ShinySwipe iOS.debug.xcconfig */,
+				6252B9A41424DE98CAAC79AC /* Pods-ShinySwipe iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		69CED24E2B1795000E8D885F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDAE09934CE70B51A61B3994 /* Pods_ShinySwipe_iOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00C3E5B42A49B7F000D01A61 /* Build configuration list for PBXNativeTarget "ShinySwipe iOS" */;
 			buildPhases = (
+				9D6E023FAF14797563F433AE /* [CP] Check Pods Manifest.lock */,
 				00C3E59D2A49B7F000D01A61 /* Sources */,
 				00C3E59E2A49B7F000D01A61 /* Frameworks */,
 				00C3E59F2A49B7F000D01A61 /* Resources */,
+				134EE32B316F222E06357D61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,15 +258,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C3E5AF2A49B7F000D01A61 /* GameScene.sks in Resources */,
-				00C3E5AA2A49B7F000D01A61 /* Main.storyboard in Resources */,
-				00C3E5AE2A49B7F000D01A61 /* Actions.sks in Resources */,
 				00C3E5AD2A49B7F000D01A61 /* LaunchScreen.storyboard in Resources */,
+				00C723AE2A530AE700D816F4 /* GoogleService-Info.plist in Resources */,
 				00C3E5B12A49B7F000D01A61 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		134EE32B316F222E06357D61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShinySwipe iOS/Pods-ShinySwipe iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShinySwipe iOS/Pods-ShinySwipe iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShinySwipe iOS/Pods-ShinySwipe iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D6E023FAF14797563F433AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShinySwipe iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		00C3E59D2A49B7F000D01A61 /* Sources */ = {
@@ -153,7 +314,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				00C3E5B02A49B7F000D01A61 /* GameScene.swift in Sources */,
-				00C3E5A72A49B7F000D01A61 /* GameViewController.swift in Sources */,
+				00C3E5C52A49B98D00D01A61 /* LeaderBoard.swift in Sources */,
+				00C3E5DB2A49B9F200D01A61 /* Array+IndexesOf.swift in Sources */,
+				00C3E5D32A49B9CF00D01A61 /* Record.swift in Sources */,
+				00C3E5D52A49B9D800D01A61 /* Tile.swift in Sources */,
+				00C3E5CB2A49B9A100D01A61 /* UserRegisterView.swift in Sources */,
+				00C3E5BD2A49B94500D01A61 /* UserVM.swift in Sources */,
+				00C3E5E32A49BA1600D01A61 /* View+InverseMask.swift in Sources */,
+				00C3E5DD2A49B9FB00D01A61 /* UIColorExtension.swift in Sources */,
+				00C3E5D12A49B9C200D01A61 /* Board.swift in Sources */,
+				00C3E5E72A4AE8B600D01A61 /* StartGame.swift in Sources */,
+				00C3E5D72A49B9DD00D01A61 /* User.swift in Sources */,
+				00C3E5E12A49BA0D00D01A61 /* LinearGradientExtension.swift in Sources */,
+				00C3E5D92A49B9E900D01A61 /* View+Borders.swift in Sources */,
+				00C3E5C12A49B95500D01A61 /* ContentView.swift in Sources */,
+				00C3E5DF2A49BA0300D01A61 /* ColorExtension.swift in Sources */,
+				00C3E5C72A49B99300D01A61 /* TileView.swift in Sources */,
+				00C3E5E52A4AE88800D01A61 /* WebConnector.swift in Sources */,
+				00C3E5C92A49B99B00D01A61 /* PopUpView.swift in Sources */,
+				00C3E5CF2A49B9BC00D01A61 /* IAPManager.swift in Sources */,
+				00C3E5CD2A49B9B400D01A61 /* GameEngine.swift in Sources */,
+				00C3E5BF2A49B94C00D01A61 /* Loading.swift in Sources */,
+				00C3E5C32A49B98600D01A61 /* OptionsScreen.swift in Sources */,
 				00C3E5A52A49B7F000D01A61 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,14 +343,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		00C3E5A82A49B7F000D01A61 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00C3E5A92A49B7F000D01A61 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		00C3E5AB2A49B7F000D01A61 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,61 +465,75 @@
 		};
 		00C3E5B52A49B7F000D01A61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBF270B29695C5CF1076A103 /* Pods-ShinySwipe iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ShinySwipe iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X4S6N445UF;
+				DEVELOPMENT_TEAM = NJ46C4HGC3;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/a99999999/Desktop/ShinySwipe/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We collect this data for analytics and special offers in the menu for visitors";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to show you personalized ads on the marketplaces.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dev.ShinySwipe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.GamingGame;
 				PRODUCT_NAME = ShinySwipe;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		00C3E5B62A49B7F000D01A61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6252B9A41424DE98CAAC79AC /* Pods-ShinySwipe iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ShinySwipe iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X4S6N445UF;
+				DEVELOPMENT_TEAM = NJ46C4HGC3;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/a99999999/Desktop/ShinySwipe/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We collect this data for analytics and special offers in the menu for visitors";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to show you personalized ads on the marketplaces.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dev.ShinySwipe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.GamingGame;
 				PRODUCT_NAME = ShinySwipe;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

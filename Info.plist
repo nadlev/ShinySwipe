@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FacebookAppID</key>
+	<string>220791687545698</string>
+	<key>FacebookClientToken</key>
+	<string>6b5eb0e3c0fed2517581296b56a9f393</string>
+	<key>FacebookDisplayName</key>
+	<string>FruitsDancing</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSAdvertisingAttributionReportEndpoint</key>
+	<string>https://appsflyer-skadnetwork.com/</string>
+	<key>NSAppTransportSecurity</key>
+	<dict/>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>This identifier will be used to show you personalized ads on the marketplaces.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string></string>
+	</array>
+</dict>
+</plist>
